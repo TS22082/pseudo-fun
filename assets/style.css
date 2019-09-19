@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  background: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1,
+a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+p {
+  transition: all 0.15s ease-in;
+}
+
+a p:hover {
+  transform: translate(-2px, -4px);
+  text-shadow: 2px 2px 2px black;
+}
+
+p:active {
+  transform: translate(-1px, -2px);
+  text-shadow: 1px 1px 1px black;
+}
+
+p:not(:last-child) {
+  margin-right: 15px;
+}
+
+input:focus {
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  margin-left: 40px;
+}
+
+nav {
+  margin-right: 40px;
+}
+
+p {
+  display: inline-block;
+}
+
+input {
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.25rem;
+}
